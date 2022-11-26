@@ -23,6 +23,10 @@ function App() {
               </div>
               <button>Log In</button>
             </form>
+            <div className="bottom">
+              <p>Forget your password?</p>
+              <a href="/">Reset Password</a>
+            </div>
           </div>
         </div>
       </div>

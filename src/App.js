@@ -27,6 +27,7 @@ function App() {
               <p>Forget your password?</p>
               <a href="/">Reset Password</a>
             </div>
+            <a href="/" className="create-account"> Create Account</a>
           </div>
         </div>
       </div>

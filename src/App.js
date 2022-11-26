@@ -21,6 +21,7 @@ function App() {
                 <input type='checkbox' checked='checked'/>
                 <p> Remember Me </p>
               </div>
+              <button>Log In</button>
             </form>
           </div>
         </div>

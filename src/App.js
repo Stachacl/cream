@@ -12,7 +12,7 @@ function App() {
   }
 
   return (
-    <div className="app" >
+    <div className="app">
     <div className='login'>
       <h1> Login</h1>
       <div className='container'>
@@ -43,7 +43,7 @@ function App() {
       </div>
       <div className='theme-toggle'>
         <h2>Light Theme</h2>
-        <i class='fas fa-toggle-on'></i>
+        <i onClick={switchTheme} class='fas fa-toggle-on'></i>
       </div>
     </div>
   </div>

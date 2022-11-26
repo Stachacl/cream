@@ -29,6 +29,10 @@ function App() {
             </div>
             <a href="/" className="create-account"> Create Account</a>
           </div>
+          <div className="theme-toggle">
+            <h2> Light Theme</h2>
+            <i class='fas fa-toggle-on'/>
+          </div>
         </div>
       </div>
     </div>

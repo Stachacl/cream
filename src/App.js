@@ -17,7 +17,7 @@ function App() {
         <div className="container">
           <div className="top">
             <i class="fab fa-google"></i>
-            <p> Log in with an existing Google account</p>
+            <p> Log in with an existing Google</p>
 
             {/* <i class='fab fa-facebook-square'></i>
           <i class='fab fa-apple'></i> */}

@@ -1,6 +1,6 @@
 function App() {
   return (
-  <h1> Cream App </h1>
+  <h1 className="text-3xl font-bold "> Cream App </h1>
   )
   
 }

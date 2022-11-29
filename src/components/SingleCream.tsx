@@ -16,13 +16,15 @@ export function SingleCream({ cream }: SingleCreamProps) {
 
       <button 
         className="py-2 px-4 border bg-slate-300"
+        onClick={() => setDescriptionDisplay(prev => !prev)}
         >
         Show description
       </button>
 
-      <div className="border bg-slate-100 py-3 my-3">
+      {/* //Only showing if descriptionDisplay is true:  */}
+       { descriptionDisplay && <div className="border bg-slate-100 py-3 my-3">
         <p>{cream.description}</p>
-      </div>
+       </div>}
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import { SingleCream } from "./components/SingleCream";
+import { creams } from "./data/creams"
 
 function App() {
   return (

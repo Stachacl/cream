@@ -1,4 +1,6 @@
-export const creams = [
+import { ICream } from "../models";
+
+export const creams: ICream[] = [
   {
     id: 1,
     title: "LANCÔME",

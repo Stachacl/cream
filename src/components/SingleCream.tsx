@@ -18,7 +18,7 @@ export function SingleCream({ cream }: SingleCreamProps) {
         className="py-2 px-4 border bg-slate-300"
         onClick={() => setDescriptionDisplay(prev => !prev)}
         >
-        Show description
+        { descriptionDisplay? "Hide Description" : 'Show Description' }
       </button>
 
       {/* //Only showing if descriptionDisplay is true:  */}

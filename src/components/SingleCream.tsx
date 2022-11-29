@@ -8,6 +8,9 @@ interface SingleCreamProps {
 export function SingleCream({ cream }: SingleCreamProps) {
   const [ descriptionDisplay, setDescriptionDisplay ] = useState(false)
 
+  const buttonBackgroundColor = descriptionDisplay ? 'bg-slate-400' : 'bg-blue-400'
+  const btnClasses = ['py-2 px-4 border', buttonBackgroundColor]
+
   return (
     <div className="border py-2 px-4 rounded flex flex-col items-center mb-2">
       <img src={cream.image} className="w-1/3" alt={cream.title} />
@@ -15,7 +18,8 @@ export function SingleCream({ cream }: SingleCreamProps) {
       <span className="font-bold"> ${cream.price} </span>
 
       <button 
-        className="py-2 px-4 border bg-slate-300"
+    //   using button class name with the method join connected via space:
+        className={btnClasses.join(' ')} 
         onClick={() => setDescriptionDisplay(prev => !prev)}
         >
         { descriptionDisplay? "Hide Description" : 'Show Description' }

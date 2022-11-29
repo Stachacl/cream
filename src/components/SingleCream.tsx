@@ -1,14 +1,14 @@
-import { ICream } from "../models"
+import { ICream } from "../models";
 
 interface SingleCreamProps {
-    cream: ICream
+  cream: ICream;
 }
 
-
 export function SingleCream(props: SingleCreamProps) {
-  return ( 
+
+  return (
     <div className="border py-2 px-4 rounded flex flex-col items-center mb-2">
-      SingleCream
+      {props.cream.title }
     </div>
-)
+  );
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import IconHamburger from './IconHamburger';
 
 
 interface Props {}
@@ -12,6 +13,7 @@ const Navbar: React.FC<Props> = () => {
       <Link className="px-2 py-1 rounded-lg hover:bg-gray-700" to="/blacklist">Blacklist</Link>
       <Link className="px-2 py-1 rounded-lg hover:bg-gray-700" to="/whitelist">Whitelist</Link>
       <Link className="px-2 py-1 rounded-lg hover:bg-gray-700" to="/my-allergens">My Allergens</Link>
+      <IconHamburger />
     </nav>
   );
 };

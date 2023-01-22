@@ -8,8 +8,8 @@ interface SingleCreamProps {
 export function SingleCream({ cream }: SingleCreamProps) {
   const [ descriptionDisplay, setDescriptionDisplay ] = useState(false)
 
-  const buttonBackgroundColor = descriptionDisplay ? 'bg-slate-400' : 'bg-blue-400'
-  const btnClasses = ['py-2 px-4 border', buttonBackgroundColor]
+  const buttonBackgroundColor = descriptionDisplay ? 'bg-slate-400' : 'bg-teal-400'
+  const btnClasses = ['py-2 px-4 border rounded', buttonBackgroundColor]
 
   return (
     <div className="border py-2 px-4 rounded flex flex-col items-center mb-2">

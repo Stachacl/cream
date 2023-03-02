@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import All from './components/All'; 
 import Blacklist from './components/Blacklist';
 import { ALL } from "dns";
+import SortButton from "./components/SortButton";
 // import Whitelist from './components/Whitelist';
 // import MyAllergens from './components/MyAllergens';
 
@@ -26,11 +27,10 @@ function App() {
                 <MyAllergens />
               </Route> */}
           </Router>
-          
-      {creams.map(cream => < SingleCream cream={cream} key={cream.id}/>)}
-      {/* same code before optimisation below: */}
-      {/* <SingleCream cream={creams[0]} />
-      <SingleCream cream={creams[1]} /> */}
+          <SortButton />
+          {/* //below is the code that i moved to the SortButton.tsx file, to show creams */}
+          {/* {creams.map(cream => < SingleCream cream={cream} key={cream.id}/>)}
+  */}
     </div>
   );
 }

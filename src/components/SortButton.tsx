@@ -42,7 +42,11 @@ function SortButton() {
         Items sorted by: <strong>{selectedOption}</strong>
       </p>
 
-      {creams.map(cream => < SingleCream cream={cream} key={cream.id}/>)}
+      {sortedItems.map(cream => < SingleCream cream={cream} key={cream.id}/>)}
+
+
+{/* the code below works to show items in default order:  */}
+      {/* {creams.map(cream => < SingleCream cream={cream} key={cream.id}/>)} */}
 
     </div>
   );

@@ -21,4 +21,24 @@ export const creams: ICream[] = [
     image: "https://www.davidjones.com/productimages/medium/1/2473373_21983867_8344498.jpg",
     rating: { rate: 4.5, count: 103 },
   },
+  {
+    id: 3,
+    title: " N°1 DE CHANEL",
+    price: 175.00,
+    description:
+      "The red camellia is a flower unlike any other and the key ingredient in N°1 DE CHANEL. A flower with revitalising powers, whose extraordinary energy gives it perennial youth. CHANEL Research has harnessed its exceptional properties to create a new generation of products, including skincare, makeup, and a fragrance mist.",
+    category: "moisturisers",
+    image: "https://www.davidjones.com/productimages/medium/1/2499524_22103813_9106572.jpg",
+    rating: { rate: 4.3, count: 85 },
+  },
+  {
+    id: 4,
+    title: "La Prairie's Skin Caviar Luxe Cream",
+    price: 1445.00,
+    description:
+      "Skin Caviar Luxe Cream Sheer is feather-weight yet nourishes both the skin and senses as it recontours and redefines.  Powered by a potent concentration of precious caviar extract and La Prairie's exclusive Cellular Complex, it lifts and firms, weightlessly and effortlessly.  Skin is left feeling soft, supple and radiant.  The ultimate in luxury, this cream is housed in a beautiful, handcrafted porcelain jar.",
+    category: "moisturisers",
+    image: "https://www.davidjones.com/productimages/medium/1/1866139_18283650_1263155.jpg",
+    rating: { rate: 4.8, count: 6 },
+  },
 ];
